@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Not Working Because Not Complete</h1>
+    <script>
+
+        const port = 8080;
+
+        // ایجاد شیء سوکت
+        const socket = new WebSocket(`ws://localhost:${port}`);
+
+        // رویداد دریافت داده از سوکت
+        socket.onmessage = (event) => {
+            console.log(`Received: ${event.data}`);
+
+            // ارسال پاسخ به سوکت
+           // socket.send('Hello, client!');
+        };
+
+        // رویداد خطا
+        socket.onerror = (event) => {
+            console.error('Error:', event);
+        };
+
+        // بستن سوکت
+        //socket.onclose = (event) => {
+        //    console.log('Disconnected');
+        //};
+
+            //const net = require('net');
+
+            //const server = net.createServer((socket) => {
+            //    console.log('Connected');
+
+            //    // دریافت داده از سوکت
+            //    socket.on('data', (data) => {
+            //        console.log(`Received: ${data}`);
+
+            //        // ارسال پاسخ به سوکت
+            //        socket.write('Hello, client!');
+            //    });
+
+            //    // بستن سوکت
+            //    socket.on('end', () => {
+            //        console.log('Disconnected');
+            //    });
+            //});
+
+            //// پورتی که سرور برای دریافت اطلاعات از آن استفاده می‌کند
+            //const port = 8000;
+
+            //// شروع سرور
+            //server.listen(port, () => {
+            //    console.log(`Server listening on port ${port}`);
+            //});
+    </script>
+</body>
+</html>

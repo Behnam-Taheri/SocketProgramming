@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketDemoConsoleAppSender", "SocketDemoConsoleAppSender\SocketDemoConsoleAppSender.csproj", "{74D71D3E-4072-489B-8F36-24AF302F75E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketDemoReceiver", "SocketDemoReceiver\SocketDemoReceiver.csproj", "{3BBBDFD1-13D7-4791-AA5E-91C9C097B9F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front", "Front", "{3250BBCE-4221-4780-9ED0-D69C045718A8}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLForSocketReceiver.html = HTMLForSocketReceiver.html
+		HTMLForWebSocketReceiver.html = HTMLForWebSocketReceiver.html
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketDemoSender", "SocketDemoSender\SocketDemoSender.csproj", "{CE159BFC-36FF-42D7-A78C-D14C58D83E3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSocketDemo", "WebSocketDemo\WebSocketDemo.csproj", "{3A8364B1-3FF9-4E4B-B576-9B0148C455EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74D71D3E-4072-489B-8F36-24AF302F75E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D71D3E-4072-489B-8F36-24AF302F75E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D71D3E-4072-489B-8F36-24AF302F75E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D71D3E-4072-489B-8F36-24AF302F75E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BBBDFD1-13D7-4791-AA5E-91C9C097B9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BBBDFD1-13D7-4791-AA5E-91C9C097B9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BBBDFD1-13D7-4791-AA5E-91C9C097B9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BBBDFD1-13D7-4791-AA5E-91C9C097B9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE159BFC-36FF-42D7-A78C-D14C58D83E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE159BFC-36FF-42D7-A78C-D14C58D83E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE159BFC-36FF-42D7-A78C-D14C58D83E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE159BFC-36FF-42D7-A78C-D14C58D83E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8364B1-3FF9-4E4B-B576-9B0148C455EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8364B1-3FF9-4E4B-B576-9B0148C455EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8364B1-3FF9-4E4B-B576-9B0148C455EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8364B1-3FF9-4E4B-B576-9B0148C455EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9A8DBA0-F960-4BDF-A6ED-F71F560C4E8E}
+	EndGlobalSection
+EndGlobal
